@@ -12,13 +12,10 @@ phases:
   build:
     commands:
       - echo BUILD Commands --------------------------------------------------
-      - ls
       - npm install
+      - ls
       - npm run build
       - cp build/app.js .
-      - cp build/__test__/app.test.js .
-      - cp build/dynamoDb/__test__/dynamoDb.test.js .
-      - cp build/dynamoDb/dynamoDb.js .
       - ls
       - echo build commands done
   post_build:
