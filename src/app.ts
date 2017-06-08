@@ -1,4 +1,4 @@
-//console.log('inside app.ts');
+//console.log('inside app.ts') ;
 import {Server} from "hapi";
 
 const server = new Server();
