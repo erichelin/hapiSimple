@@ -1,0 +1,6 @@
+.idea/hapiSimple.iml
+.idea/modules.xml
+.idea/workspace.xml
+build/
+node_modules/
+package-lock.json
